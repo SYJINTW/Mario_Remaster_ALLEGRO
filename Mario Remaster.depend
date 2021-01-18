@@ -1,0 +1,981 @@
+# depslib dependency file v1.0
+1610715290 source:c:\users\yuan jun sun\desktop\mario remaster\main.cpp
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	"global.h"
+	"gamescreen.h"
+	"menu.h"
+	"soundmanager.h"
+	"inputmanager.h"
+	"settingpage.h"
+	"pause.h"
+	"viewsetting.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\alplatf.h
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\alandroidcfg.h
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\alunix.h
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\color.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\config.h
+	"allegro5/file.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\error.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\keycodes.h
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608728144 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\alcompat.h
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\allegro_native_dialog.h
+	"allegro5/allegro.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1610716100 c:\users\yuan jun sun\desktop\mario remaster\global.h
+	<iostream>
+	<vector>
+	<string>
+
+1610661621 source:c:\users\yuan jun sun\desktop\mario remaster\menu.cpp
+	"menu.h"
+
+1610718812 source:c:\users\yuan jun sun\desktop\mario remaster\gamescreen.cpp
+	<iostream>
+	"gamescreen.h"
+
+1610714128 c:\users\yuan jun sun\desktop\mario remaster\gamescreen.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_primitives.h>
+	"global.h"
+	"soundmanager.h"
+	"mario.h"
+	"inputmanager.h"
+	"map.h"
+	"brick.h"
+
+1610661599 c:\users\yuan jun sun\desktop\mario remaster\menu.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"menuposition.h"
+	"global.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1610573010 c:\users\yuan jun sun\desktop\mario remaster\menuposition.h
+	<iostream>
+	<vector>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	"global.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1608728143 c:\users\yuan jun sun\desktop\mario remaster\allegro\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1610701038 c:\users\yuan jun sun\desktop\mario remaster\soundmanager.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	"global.h"
+
+1610701483 source:c:\users\yuan jun sun\desktop\mario remaster\soundmanager.cpp
+	"soundmanager.h"
+
+1610713715 c:\users\yuan jun sun\desktop\mario remaster\mario.h
+	<iostream>
+	<string>
+	<vector>
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<allegro5/allegro_primitives.h>
+	"soundmanager.h"
+	"global.h"
+	"rectangle.h"
+	"position.h"
+	"inputmanager.h"
+	"wall.h"
+	"brick.h"
+	"block.h"
+
+1610773794 source:c:\users\yuan jun sun\desktop\mario remaster\mario.cpp
+	"mario.h"
+
+1610562574 c:\users\yuan jun sun\desktop\mario remaster\rectangle.h
+
+1610686758 source:c:\users\yuan jun sun\desktop\mario remaster\rectangle.cpp
+	"rectangle.h"
+	"iostream"
+
+1610480329 c:\users\yuan jun sun\desktop\mario remaster\position.h
+
+1610480267 source:c:\users\yuan jun sun\desktop\mario remaster\position.cpp
+	"position.h"
+
+1610542729 c:\users\yuan jun sun\desktop\mario remaster\inputmanager.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	"global.h"
+
+1610551362 source:c:\users\yuan jun sun\desktop\mario remaster\wall.cpp
+
+1610719127 c:\users\yuan jun sun\desktop\mario remaster\map.h
+	<iostream>
+	<vector>
+	<string>
+	<allegro5/allegro.h>
+	"global.h"
+	"rectangle.h"
+	"position.h"
+	"wall.h"
+	"brick.h"
+	"block.h"
+
+1610710503 c:\users\yuan jun sun\desktop\mario remaster\wall.h
+	<iostream>
+	<allegro5/allegro.h>
+	"global.h"
+	"rectangle.h"
+
+1610661951 c:\users\yuan jun sun\desktop\mario remaster\settingpage.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"menuposition.h"
+	"global.h"
+
+1610661763 c:\users\yuan jun sun\desktop\mario remaster\pause.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"menuposition.h"
+	"global.h"
+
+1610661787 source:c:\users\yuan jun sun\desktop\mario remaster\pause.cpp
+	"pause.h"
+
+1610772078 c:\users\yuan jun sun\desktop\mario remaster\brick.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	"global.h"
+	"rectangle.h"
+
+1610711542 c:\users\yuan jun sun\desktop\mario remaster\block.h
+	<iostream>
+	<allegro5/allegro.h>
+	"global.h"
+	"rectangle.h"
+
+1610662170 source:c:\users\yuan jun sun\desktop\mario remaster\settingpage.cpp
+	"settingpage.h"
+
+1610663093 source:c:\users\yuan jun sun\desktop\mario remaster\viewsetting.cpp
+	"viewsetting.h"
+
+1610662446 c:\users\yuan jun sun\desktop\mario remaster\viewsetting.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"menuposition.h"
+	"global.h"
+
+1610718814 source:e:\ee2i\mario remaster\gamescreen.cpp
+	<iostream>
+	"gamescreen.h"
+
+1610714130 e:\ee2i\mario remaster\gamescreen.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_primitives.h>
+	"global.h"
+	"soundmanager.h"
+	"mario.h"
+	"inputmanager.h"
+	"map.h"
+	"brick.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\alplatf.h
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\alandroidcfg.h
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\alunix.h
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\color.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\config.h
+	"allegro5/file.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\error.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\keycodes.h
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608728146 e:\ee2i\mario remaster\allegro\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\alcompat.h
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1610716102 e:\ee2i\mario remaster\global.h
+	<iostream>
+	<vector>
+	<string>
+
+1610701040 e:\ee2i\mario remaster\soundmanager.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	"global.h"
+
+1610713716 e:\ee2i\mario remaster\mario.h
+	<iostream>
+	<string>
+	<vector>
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<allegro5/allegro_primitives.h>
+	"soundmanager.h"
+	"global.h"
+	"rectangle.h"
+	"position.h"
+	"inputmanager.h"
+	"wall.h"
+	"brick.h"
+	"block.h"
+
+1610562576 e:\ee2i\mario remaster\rectangle.h
+
+1610480330 e:\ee2i\mario remaster\position.h
+
+1610542730 e:\ee2i\mario remaster\inputmanager.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	"global.h"
+
+1610710504 e:\ee2i\mario remaster\wall.h
+	<iostream>
+	<allegro5/allegro.h>
+	"global.h"
+	"rectangle.h"
+
+1610772080 e:\ee2i\mario remaster\brick.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	"global.h"
+	"rectangle.h"
+
+1610711544 e:\ee2i\mario remaster\block.h
+	<iostream>
+	<allegro5/allegro.h>
+	"global.h"
+	"rectangle.h"
+
+1610719128 e:\ee2i\mario remaster\map.h
+	<iostream>
+	<vector>
+	<string>
+	<allegro5/allegro.h>
+	"global.h"
+	"rectangle.h"
+	"position.h"
+	"wall.h"
+	"brick.h"
+	"block.h"
+
+1610715292 source:e:\ee2i\mario remaster\main.cpp
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	"global.h"
+	"gamescreen.h"
+	"menu.h"
+	"soundmanager.h"
+	"inputmanager.h"
+	"settingpage.h"
+	"pause.h"
+	"viewsetting.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\allegro_native_dialog.h
+	"allegro5/allegro.h"
+
+1608728144 e:\ee2i\mario remaster\allegro\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1610661600 e:\ee2i\mario remaster\menu.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"menuposition.h"
+	"global.h"
+
+1610573012 e:\ee2i\mario remaster\menuposition.h
+	<iostream>
+	<vector>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	"global.h"
+
+1610661952 e:\ee2i\mario remaster\settingpage.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"menuposition.h"
+	"global.h"
+
+1610661764 e:\ee2i\mario remaster\pause.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"menuposition.h"
+	"global.h"
+
+1610662448 e:\ee2i\mario remaster\viewsetting.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"menuposition.h"
+	"global.h"
+
+1610773796 source:e:\ee2i\mario remaster\mario.cpp
+	"mario.h"
+
+1610661622 source:e:\ee2i\mario remaster\menu.cpp
+	"menu.h"
+
+1610661788 source:e:\ee2i\mario remaster\pause.cpp
+	"pause.h"
+
+1610480268 source:e:\ee2i\mario remaster\position.cpp
+	"position.h"
+
+1610686760 source:e:\ee2i\mario remaster\rectangle.cpp
+	"rectangle.h"
+	"iostream"
+
+1610662172 source:e:\ee2i\mario remaster\settingpage.cpp
+	"settingpage.h"
+
+1610701484 source:e:\ee2i\mario remaster\soundmanager.cpp
+	"soundmanager.h"
+
+1610663094 source:e:\ee2i\mario remaster\viewsetting.cpp
+	"viewsetting.h"
+
+1610551364 source:e:\ee2i\mario remaster\wall.cpp
+
